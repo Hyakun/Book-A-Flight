@@ -1,0 +1,140 @@
+{
+  "flights": [
+    {
+      "id": "1",
+      "zi": "2022/11/10",
+      "oraPlecare": "9:00",
+      "oraAterizare": "12:00",
+      "durata": "3:00",
+      "orasPlecare": "Bucuresti",
+      "orasAterizare": "Anglia",
+      "pret": "150",
+      "locuriTotale": 100,
+      "locuriOcupate": 52
+    },
+    {
+      "id": "2",
+      "zi": "2022/11/23",
+      "oraPlecare": "9:00",
+      "oraAterizare": "12:00",
+      "durata": "3:00",
+      "orasPlecare": "Bucuresti",
+      "orasAterizare": "Roma",
+      "pret": "150",
+      "locuriTotale": 100,
+      "locuriOcupate": 64
+    },
+    {
+      "id": "3",
+      "zi": "2022/12/11",
+      "oraPlecare": "11:00",
+      "oraAterizare": "14:00",
+      "durata": "3:00",
+      "orasPlecare": "Anglia",
+      "orasAterizare": "Bucuresti",
+      "pret": "150",
+      "locuriTotale": 100,
+      "locuriOcupate": 20
+    },
+    {
+      "id": "4",
+      "zi": "2022/11/15",
+      "oraPlecare": "9:00",
+      "oraAterizare": "12:00",
+      "durata": "3:00",
+      "orasPlecare": "Roma",
+      "orasAterizare": "Bucuresti",
+      "pret": "150",
+      "locuriTotale": 120,
+      "locuriOcupate": 15
+    },
+    {
+      "id": "5",
+      "zi": "2023/01/01",
+      "oraPlecare": "9:00",
+      "oraAterizare": "12:00",
+      "durata": "3:00",
+      "orasPlecare": "Roma",
+      "orasAterizare": "Bucuresti",
+      "pret": "150",
+      "locuriTotale": 150,
+      "locuriOcupate": 86
+    },
+    {
+      "id": "6",
+      "zi": "2022/11/10",
+      "oraPlecare": "9:00",
+      "oraAterizare": "12:00",
+      "durata": "3:00",
+      "orasPlecare": "Bucuresti",
+      "orasAterizare": "Anglia",
+      "pret": "150",
+      "locuriTotale": 100,
+      "locuriOcupate": 52
+    },
+    {
+      "id": "7",
+      "zi": "2022/11/23",
+      "oraPlecare": "9:00",
+      "oraAterizare": "12:00",
+      "durata": "3:00",
+      "orasPlecare": "Bucuresti",
+      "orasAterizare": "Roma",
+      "pret": "150",
+      "locuriTotale": 100,
+      "locuriOcupate": 64
+    },
+    {
+      "id": "8",
+      "zi": "2022/12/11",
+      "oraPlecare": "11:00",
+      "oraAterizare": "14:00",
+      "durata": "3:00",
+      "orasPlecare": "Anglia",
+      "orasAterizare": "Bucuresti",
+      "pret": "150",
+      "locuriTotale": 100,
+      "locuriOcupate": 20
+    },
+    {
+      "id": "9",
+      "zi": "2022/11/15",
+      "oraPlecare": "9:00",
+      "oraAterizare": "12:00",
+      "durata": "3:00",
+      "orasPlecare": "Roma",
+      "orasAterizare": "Bucuresti",
+      "pret": "150",
+      "locuriTotale": 120,
+      "locuriOcupate": 15
+    },
+    {
+      "id": "10",
+      "zi": "2023/01/01",
+      "oraPlecare": "9:00",
+      "oraAterizare": "12:00",
+      "durata": "3:00",
+      "orasPlecare": "Roma",
+      "orasAterizare": "Bucuresti",
+      "pret": "150",
+      "locuriTotale": 150,
+      "locuriOcupate": 86
+    }
+  ],
+  "flightsbook": [
+    {
+      "flightId": "2",
+      "clientName": "Ana",
+      "clientEmail": "ana@yahoo.com",
+      "persoane": 1,
+      "id": 1
+    },
+    {
+      "flightId": "2",
+      "clientName": "Ion",
+      "clientEmail": "Ion@yahoo.com",
+      "persoane": "5",
+      "id": 2
+    }
+  ]
+}

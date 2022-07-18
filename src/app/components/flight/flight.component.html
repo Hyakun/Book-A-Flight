@@ -1,0 +1,17 @@
+<a [routerLink]="['/flights', fly.id]">
+<div class="flight">
+    <p class="day">{{fly.zi}}</p>
+    <p class="oraPlecare">{{fly.oraPlecare}}</p>
+    <p class="durataZbor">{{fly.durata}}h</p>
+    <p class="oraAjungere">{{fly.oraAterizare}}</p>
+    <p class="orasP">{{fly.orasPlecare}}</p>
+        <div class="sageata">
+            <div class="sageata1"></div>
+            <div class="sageata2"></div>
+            <div class="sageata3"></div>
+        </div>
+    <p class="orasA">{{fly.orasAterizare}}</p>
+    <p class="pret">{{fly.pret}}$</p>
+    <p class="locuri">{{fly.locuriOcupate}}/{{fly.locuriTotale}}</p>
+</div>
+</a>

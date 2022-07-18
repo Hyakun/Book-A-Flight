@@ -1,0 +1,14 @@
+<div class="backgroundIMG">
+<div class="sbar">
+    <p class="inputInfo">From:</p>
+    <input class="inputText" type="text" [(ngModel)]="fromText" (ngModelChange)="filter()">
+    <input (click)="changeValues()" class="inputButton" type="button" value="&#x2607;">
+    <p class="inputInfo">To:</p>
+    <input class="inputText" type="text" [(ngModel)]="toText" (ngModelChange)="filter()">
+    <!-- <input class="inputButton" type="submit" value="Search"> -->
+</div>
+</div>
+
+<div class="flights" [ngStyle]="{'background-color':'transparent', 'margin-top':'10px'}">
+<app-flight *ngFor="let Fly of filteredFlights" [fly]="Fly"></app-flight>
+</div>

@@ -1,0 +1,31 @@
+<div class="flightsBook">
+    <div class="flight">
+        <p class="day">{{flight?.zi}}</p>
+        <p class="oraPlecare">{{flight?.oraPlecare}}</p>
+        <p class="durataZbor">{{flight?.durata}}h</p>
+        <p class="oraAjungere">{{flight?.oraAterizare}}</p>
+        <p class="orasP">{{flight?.orasPlecare}}</p>
+            <div class="sageata">
+                <div class="sageata11"></div>
+                <div class="sageata2"></div>
+                <div class="sageata3"></div>
+            </div>
+        <p class="orasA">{{flight?.orasAterizare}}</p>
+        <p class="pret">{{flight?.pret}}$</p>
+        <p class="locuri">{{flight?.locuriOcupate}}/{{flight?.locuriTotale}}</p>
+    </div>
+    <form class="bookForm" (ngSubmit)="bookOrder()">
+    <label class="inputInfo" for="name">Name:</label>
+    <input [(ngModel)]="name" class="inputText" type="text" name="name" id="nume">
+    <label class="inputInfo" for="email">Email:</label>
+    <input [(ngModel)]="email" class="inputText" type="text" name="email" id="email">
+    <select [ngStyle]="{'width':'5%'}" class="inputText" name="nrPers" id="nrPers" [(ngModel)]="nrPers">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+    <input class="inputButton"  type="submit" value="Book">
+    </form>
+</div>
